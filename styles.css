@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: rgba(41, 73, 105,.75);
 }
 /* Link Styles */
 
@@ -57,8 +57,9 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background-image: url(images/space.jpg);
   background-size: cover;
+  background-attachment: fixed;
   overflow: hidden;
   padding-top: 60px;
 }
@@ -70,14 +71,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #2D5A8B;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color:ghostwhite;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -93,8 +94,8 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
+  background: ghostwhite;
+  /* border-bottom: 4px solid #ccc; */
   border-radius: 6px;
   transition: all .5s;
 }
