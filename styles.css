@@ -23,12 +23,12 @@ a:hover {
 
 /* Section Styles */
 .h1Header {
-  font-size: 110pt;
+  font-size: 8vw;
   color: ghostwhite;
   font-family: 'Lato', sans-serif;
 }
 
-.main-nav {
+nav {
   width: 100%;
   background: #000;
   min-height: 30px;
@@ -156,6 +156,10 @@ a.social {
   transition: all .5s;
 }
 
+.hamRadio {
+  width: 100%;
+}
+
 a.github {
   background-image: url(images/github.svg);
 }
@@ -178,19 +182,10 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  header {
-    min-height: 470px;
-  }
-
   .nav {
     max-width: 1200px;
     padding: 0 30px;
   }
-
-.hobbiesHeader {
-  min-height: 100px;
-  max-height: 350px;
-  padding-top: 0;
 
   main {
     padding-top: 20px;
@@ -206,5 +201,10 @@ a.social:hover {
     margin: 40px auto;
   }
 
-}
+  .hobbiesHeader {
+    max-height: 350px;
+    padding-top: 0;
+  }
 
+
+}
