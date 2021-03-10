@@ -36,7 +36,7 @@ nav {
   position: fixed;
   text-align: center;
 }
-nav .nav {
+.nav {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
